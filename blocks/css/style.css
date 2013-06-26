@@ -64,19 +64,16 @@
   }
 
   /* multiple columns w/ margins */
-  /*ul.module{
-    overflow:hidden;
-    width:300px;
-  }
-  ul.module {
+
+  .dashboard li {
     height:50px;
     width:80px;
     float:left;
     margin-left:30px;
   }
-  .multicol_margins > div:first-child {
+  .dashboard > li:first-child {
     margin-left:0;
-  }*/
+  }
 
   /* grid */
   .photos {
