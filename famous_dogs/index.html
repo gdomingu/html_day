@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Famous Cartoon Dogs</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+    <h1>Famous Cartoon Dogs</h1>
+
+    <ul id="puppies">
+      <li class="great_dane" id="Scooby Doo">Scooby Doo<img src="images/scooby_doo.jpg" alt="picture of scooby doo"/></li>
+      <li class="cairin_terrier" id="Toto">Toto<img src="images/toto.jpg" alt="picture of toto"/></li>
+      <li class="lab" id="Old Yeller">Old Yeller<img src="images/old_yeller.jpg" alt="picture of old yeller"/></li>
+      <li class="cocker_spaniel" id="Lady">Lady<img src="images/lady.jpg" alt="picture of lady"/></li>
+      <li class="chihuahua" id="Ren">Ren<img src="images/ren.jpg" alt="picture of ren"/></li>
+      <li class="collie" id="Lassie">Lassie<img src="images/lassie.jpg" alt="picture of lassie"/></li>
+      <li class="great_dane" id="Marmaduke">Marmaduke<img src="images/marmaduke.jpg" alt="picture of marmaduke"/></li>
+      <li class="beagle" id="Snoopy">Snoopy<img src="images/snoopy.jpg" alt="picture of snoopy"/></li>
+    </ul>
+    <br>
+    <form id="new_puppy" action="/puppies" method="post">
+       <fieldset legend="Add a dog">
+          <label for="name">New puppy name:</label>
+          <input name="name" id="name" type="text">
+          <label for="breed"></label>
+          <select name"breed" id="breed">
+             <option value="">Choose a breed</option>
+             <option value="great_dane">Great Dane</option>
+             <option value="cairin_terrier">Cairn Terrier</option>
+             <option value="lab">Lab</option>
+             <option value="cocker_spaniel">Cocker Spaniel</option>
+             <option value="chihuahua">Chihuahua</option>
+             <option value="collie">Collie</option>
+             <option value="great_dane">Great Dane</option>
+             <option value="beagle">Beagle</option>
+          </select>
+          <input type="submit" name="submit" value="Add Dog!"></input>
+        </fieldset>
+    </form>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>
+
+

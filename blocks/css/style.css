@@ -1,0 +1,108 @@
+  body {
+    padding-top:20px;
+    font-family:sans-serif;
+    text-align:center;
+    background:#ddd;
+  }
+  h3 {
+    font-size:20px;
+  }
+  .module {
+    width:300px;
+    background:gold;
+    margin:20px auto;
+    padding:30px;
+  }
+  .module div,
+  .module li,
+  .module nav,
+  .module section {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid #ba0000;
+  }
+  ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+  /* the good stuff starts here :) */
+  .articles {
+    width:300px;
+  }
+  .articles > li {
+    height:50px
+  }
+
+  /* two columns */
+  .dashboard {
+    width:300px;
+    overflow:hidden;
+  }
+  .dashboard nav, section {
+    height:50px;
+  }
+  .dashboard > nav {
+    width:100px;
+    float:left;
+  }
+  .dashboard > section {
+    width:200px;
+    float:right;
+  }
+
+  /* multiple columns */
+  #tasks {
+    overflow:hidden;
+    width:300px;
+  }
+  #tasks > section {
+    height:50px;
+    width:100px;
+    float:left;
+  }
+
+  /* multiple columns w/ margins */
+  /*ul.module{
+    overflow:hidden;
+    width:300px;
+  }
+  ul.module {
+    height:50px;
+    width:80px;
+    float:left;
+    margin-left:30px;
+  }
+  .multicol_margins > div:first-child {
+    margin-left:0;
+  }*/
+
+  /* grid */
+  .photos {
+    overflow:hidden;
+    width:300px;
+  }
+  .photos > div {
+    height:50px;
+    width:100px;
+    float:left;
+  }
+
+  /* grid w/ margins */
+  .photos {
+    overflow:hidden;
+    width:300px;
+  }
+  .photos > .vacation {
+    margin-top:-30px;
+    margin-right:-30px;
+    border:0;
+  }
+  .photos > .vacation > li {
+    float:left;
+    height:50px;
+    width:80px;
+    margin-top:30px;
+    margin-right:30px;
+  }
